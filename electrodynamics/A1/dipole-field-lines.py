@@ -13,7 +13,7 @@ Requirements:
 
 Plan: 
 1. Use Quiver and Streamline plot
-2. Figure out the how to create array of efield values? 
+2. Figure out the how to create array of e-field values? 
 '''
 
 import numpy as np 
@@ -34,4 +34,6 @@ import matplotlib.pyplot as plt
 # plt.title('quiver')
 
 # plt.show()
+
+
 
