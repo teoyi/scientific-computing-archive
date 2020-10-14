@@ -47,7 +47,7 @@ while True:
 print(gridN)
 
 plt.figure()
-plt.imshow(gridN, origin = "lower", cmap = "hot", extent = [0, 1, 0, 1])
+plt.imshow(gridN, origin = "lower", cmap = "twilight", extent = [0, 1, 0, 1])
 plt.title('Method of Relaxation')
 plt.xlabel('x')
 plt.ylabel('y')
