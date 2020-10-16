@@ -2,6 +2,7 @@
 As Stated in Assignment 3: 
 - Use a grid of 20 points in both x- and y- directions, for a total of 400 grid points
 - Set a = 1 
+References: Jin Kiatvon, Zachary Scroggy, Ryan Wong 
 '''
 import numpy as np 
 import matplotlib.pyplot as plt 
