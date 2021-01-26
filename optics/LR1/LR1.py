@@ -1,10 +1,16 @@
 import pandas as pd 
 import numpy as np 
+import os 
 import matplotlib.pyplot as plt 
 
-df = pd.read_csv("/Users/luke/Desktop/python_project/GitClone/scientific-computing-archive/optics/LR1/p-half.csv")
+os.chdir('./optics/LR1')
+df_p = pd.read_csv('p-half.csv')
+df_s = pd.read_csv('s-half.csv')
 
-print(df)
+plt.figure()
+plt.plot(df_p[df_p.columns[0]], df_p[df_p.columns[1]], color = 'black')
 
-plt.plot(df['Time - Plot 0'], df['Amplitude - Plot 0'])
+plt.figure()
+plt.plot(df_s[df_s.columns[0]], df_s[df_s.columns[1]], color = 'black')
+
 plt.show()
